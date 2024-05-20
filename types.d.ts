@@ -1,6 +1,5 @@
-type Todo = {
-  userId: number;
-  id: number;
+type BlogPost = {
+  id: string;
   title: string;
-  completed: boolean;
+  date: string;
 };
